@@ -44,7 +44,7 @@ function Hero() {
             </button>
 
             <a
-              href="Abdou_WADE.pdf"
+              href={`${import.meta.env.BASE_URL}Abdou_WADE.pdf`}
               className="btn btn-secondary"
               target="_blank"
               rel="noreferrer"
