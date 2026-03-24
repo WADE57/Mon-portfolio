@@ -17,8 +17,8 @@ Ce portfolio a pour objectif de présenter mon profil dans le cadre d’une rech
 
 ## Demo
 
-- Site en ligne: `https://wade57.github.io/Mon-portfolio/`
-- Repository: `https://github.com/WADE57/Mon-portfolio`
+- Site en ligne: [`https://wade57.github.io/Mon-portfolio/`](https://wade57.github.io/Mon-portfolio/)
+- Repository: [`https://github.com/WADE57/Mon-portfolio`](https://github.com/WADE57/Mon-portfolio)
 
 
 ## Fonctionnalités 
