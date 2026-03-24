@@ -17,8 +17,8 @@ Ce portfolio a pour objectif de présenter mon profil dans le cadre d’une rech
 
 ## Demo
 
-- Site en ligne: `https://<ton-username>.github.io/mon-portfolio/`
-- Repository: `https://github.com/<ton-username>/<ton-repo>`
+- Site en ligne: `https://wade57.github.io/Mon-portfolio/`
+- Repository: `https://github.com/WADE57/Mon-portfolio`
 
 
 ## Fonctionnalités 
@@ -47,8 +47,8 @@ Ce portfolio a pour objectif de présenter mon profil dans le cadre d’une rech
 ## Installation et demarrage local
 
 ```bash
-git clone https://github.com/<ton-username>/<ton-repo>.git
-cd <ton-repo>
+git clone https://github.com/WADE57/Mon-portfolio.git
+cd Mon-portfolio
 npm install
 npm run dev
 ```
