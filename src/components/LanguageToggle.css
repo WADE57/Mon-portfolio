@@ -1,0 +1,70 @@
+.language-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1001;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border: 2px solid #646cff;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  color: #646cff;
+  box-shadow: 0 4px 12px rgba(100, 108, 255, 0.2);
+}
+
+.language-toggle:hover {
+  background: #646cff;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(100, 108, 255, 0.3);
+}
+
+.language-toggle .flag {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.language-toggle:hover .flag {
+  transform: scale(1.1);
+}
+
+.lang-text {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .language-toggle {
+    top: 15px;
+    right: 15px;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+  }
+  
+  .language-toggle .flag {
+    font-size: 1rem;
+  }
+}
+
+/* Animation d'entrée */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.language-toggle {
+  animation: slideIn 0.5s ease-out;
+}

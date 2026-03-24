@@ -1,0 +1,168 @@
+.skills {
+  padding: 5rem 0;
+  background: var(--bg-secondary);
+}
+
+.skills-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.skill-item {
+  background: var(--bg-primary);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.skill-header h3 {
+  margin: 0;
+  color: var(--text-primary);
+  font-size: 1.1rem;
+}
+
+.skill-header span {
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+.skill-bar {
+  width: 100%;
+  height: 8px;
+  background: var(--border-color);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.skill-progress {
+  height: 100%;
+  background: linear-gradient(45deg, #646cff, #747bff);
+  border-radius: 4px;
+  transition: width 1s ease;
+}
+
+/* Nouveau rendu sans pourcentages */
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 3rem;
+}
+
+.skill-tag {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  padding: 0.5rem 0.9rem;
+  border-radius: 999px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  font-weight: 500;
+}
+
+/* Blocs de catégories de compétences */
+.skills-block {
+  background: var(--bg-primary);
+  border-radius: 12px;
+  padding: 1.25rem 1.25rem 0.25rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+.skill-block-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.skill-block-icon {
+  font-size: 1.8rem;
+}
+
+.skills-block h3 {
+  font-size: 1.25rem;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.skills-description {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.technologies {
+  text-align: center;
+}
+
+.technologies h3 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: var(--text-primary);
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+}
+
+.tech-item {
+  background: var(--bg-primary);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  color: var(--text-primary);
+  font-weight: 500;
+  transition: transform 0.3s ease;
+}
+
+.tech-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 20px rgba(100, 108, 255, 0.2);
+}
+
+@media (max-width: 768px) {
+  .skills {
+    padding: 3rem 0;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tech-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.skill-tag {
+  background: var(--accent-color);
+  color: white;
+  padding: 0.35rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}

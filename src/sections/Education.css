@@ -1,0 +1,156 @@
+.education {
+  padding: 5rem 0;
+  background: var(--bg-primary);
+}
+
+.education-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.education-timeline {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.education-timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--accent-color);
+  transform: translateX(-50%);
+}
+
+.education-item {
+  position: relative;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.education-item:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.education-item:nth-child(odd) .education-content {
+  text-align: right;
+}
+
+.education-item::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  width: 15px;
+  height: 15px;
+  background: var(--accent-color);
+  border-radius: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.education-date {
+  flex: 0 0 120px;
+  background: var(--accent-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.education-content {
+  flex: 1;
+  background: var(--bg-secondary);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.education-content h3 {
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.education-content h4 {
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.education-description {
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.education-courses h5 {
+  color: var(--text-primary);
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+}
+
+.education-courses ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.5rem;
+}
+
+.education-courses li {
+  color: var(--text-secondary);
+  padding: 0.3rem 0;
+  position: relative;
+  padding-left: 1.2rem;
+}
+
+.education-courses li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: #646cff;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .education {
+    padding: 3rem 0;
+  }
+  
+  .education-timeline::before {
+    left: 20px;
+  }
+  
+  .education-item {
+    flex-direction: column !important;
+    margin-left: 40px;
+  }
+  
+  .education-item::before {
+    left: 20px;
+    transform: translateX(-50%);
+  }
+  
+  .education-item:nth-child(odd) .education-content {
+    text-align: left;
+  }
+  
+  .education-date {
+    align-self: flex-start;
+    flex: none;
+  }
+  
+  .education-courses ul {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,46 @@
+.soft-skills {
+    padding: 5rem 0;
+    background: var(--bg-primary);
+}
+
+.soft-skills-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.soft-skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.soft-skill-card {
+    background: var(--bg-secondary);
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid var(--border-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.soft-skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.soft-icon {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.soft-skill-card h3 {
+    margin-bottom: 0.8rem;
+    color: var(--text-primary);
+}
+
+.soft-skill-card p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+}

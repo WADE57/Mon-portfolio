@@ -1,0 +1,133 @@
+.languages {
+  padding: 5rem 0;
+  background: var(--bg-secondary);
+}
+
+.languages-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.languages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.language-item {
+  background: var(--bg-primary);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.language-item:hover {
+  transform: translateY(-5px);
+}
+
+.language-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.language-flag {
+  font-size: 2.5rem;
+}
+
+.language-info h3 {
+  margin: 0 0 0.5rem 0;
+  color: var(--text-primary);
+  font-size: 1.3rem;
+}
+
+.language-info p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.language-bar {
+  width: 100%;
+  height: 8px;
+  background: var(--border-color);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.language-progress {
+  height: 100%;
+  background: linear-gradient(45deg, #646cff, #747bff);
+  border-radius: 4px;
+  transition: width 1s ease;
+}
+
+.additional-skills {
+  text-align: center;
+}
+
+.additional-skills h3 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.skill-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+.skill-icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.skill-card h4 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.skill-card p {
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .languages {
+    padding: 3rem 0;
+  }
+  
+  .languages-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .skills-list {
+    grid-template-columns: 1fr;
+  }
+  
+  .language-header {
+    justify-content: center;
+    text-align: center;
+  }
+}

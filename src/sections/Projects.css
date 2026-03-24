@@ -1,0 +1,174 @@
+.projects {
+  padding: 5rem 0;
+  background: var(--bg-primary);
+}
+
+.projects-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* ================= TITRES ================= */
+
+.section-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.projects-intro {
+  font-weight: 600;
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto 2.5rem auto;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* ================= TITRE RECHERCHE ================= */
+
+.research-title {
+  margin-top: 5rem;
+  text-align: center;
+  position: relative;
+}
+
+.research-title::after {
+  content: "";
+  width: 80px;
+  height: 3px;
+  background: var(--accent-color);
+  display: block;
+  margin: 10px auto 0 auto;
+  border-radius: 5px;
+}
+
+/* ================= GRID ================= */
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* ================= CARD ================= */
+
+.project-card {
+  background: var(--bg-secondary);
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid var(--border-color);
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Style spécifique recherche */
+.research-card {
+  border: 1px solid #e5e5e5;
+  background-color: #fafafa;
+}
+
+/* ================= IMAGE ================= */
+
+.project-image {
+  height: 200px;
+  background: linear-gradient(135deg, #646cff, #747bff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-icon {
+  font-size: 4rem;
+}
+
+/* ================= CONTENT ================= */
+
+.project-content {
+  padding: 2rem;
+}
+
+.project-content h3 {
+  margin: 0 0 1rem 0;
+  color: var(--text-primary);
+  font-size: 1.4rem;
+}
+
+.project-content p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+/* ================= TECH TAGS ================= */
+
+.project-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tech-tag {
+  background: var(--accent-color);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* ================= LINKS ================= */
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-link {
+  padding: 0.7rem 1.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 2px solid var(--accent-color);
+  color: var(--accent-color);
+  background: transparent;
+}
+
+.project-link:hover {
+  background: var(--accent-color);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.project-link.demo {
+  background: #646cff;
+  color: white;
+}
+
+.project-link.demo:hover {
+  background: #5a5fcf;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 3rem 0;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-links {
+    flex-direction: column;
+  }
+}
