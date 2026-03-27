@@ -137,8 +137,8 @@ function Projects() {
         "LaTeX"
       ],
       image: "📚",
-      github: "#",
-      demo: "#"
+      // github: "#",
+      // demo: "#"
     }
   ];
 
