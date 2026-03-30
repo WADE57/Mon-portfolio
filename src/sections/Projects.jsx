@@ -108,7 +108,7 @@ function Projects() {
       description: "Conception et développement orienté objet du jeu de société Deep Sea Adventure. Implémentation d’un moteur de jeu complet (gestion des règles, tours, ressources, scoring), architecture modulaire avec séparation des classes (joueurs, plateau, moteur, IA), affichage ASCII et développement d’une IA pour jouer contre l’utilisateur. Projet axé sur la qualité logicielle, la testabilité et l’extensibilité.",
       technologies: ["Python", "Programmation Orientée Objet", "Architecture logicielle", "Algorithmes", "IA basique"],
       image: "🤿",
-      github: "https://github.com/Taipan11/deepsea_game", 
+      github: "https://github.com/Taipan11/deepsea_game",
       demo: "#"
     },
 
@@ -118,7 +118,7 @@ function Projects() {
       description: "Étude d'un modèle de comportement thermique d'un microprocesseur et simulation numérique en C++. Optimisation des performances des simulations en ajustant les paramètres de maillage et les algorithmes de résolution. Visualisation 2D/3D avec Paraview et gestion efficace des fichiers de sortie (VTK, CSV).",
       technologies: ["C++", "Simulation thermique", "Optimisation numérique", "Paraview", "Visualisation"],
       image: "🔥",
-      github: "https://github.com/master-csmi/2023-m1-refroidissement-microprocesseur",
+      github: "https://github.com/WADE57/projet-cpp",
       demo: "#"
     },
     {
