@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" role="img" aria-label="Projets portfolio - slide 2">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg2)"/>
+  <rect x="70" y="70" width="940" height="940" rx="38" fill="#ffffff" opacity="0.08"/>
+
+  <text x="120" y="170" fill="#99f6e4" font-size="34" font-family="Poppins, Segoe UI, sans-serif" font-weight="700">SECTION PROJETS</text>
+  <text x="120" y="255" fill="#ffffff" font-size="62" font-family="Poppins, Segoe UI, sans-serif" font-weight="800">Ce que je montre</text>
+
+  <rect x="120" y="315" width="840" height="190" rx="24" fill="#0b1322" opacity="0.72"/>
+  <text x="160" y="385" fill="#5eead4" font-size="32" font-family="Poppins, Segoe UI, sans-serif" font-weight="700">Simulation numerique</text>
+  <text x="160" y="445" fill="#e5e7eb" font-size="30" font-family="Poppins, Segoe UI, sans-serif">Methodes mathematiques et modelisation</text>
+
+  <rect x="120" y="535" width="840" height="190" rx="24" fill="#0b1322" opacity="0.72"/>
+  <text x="160" y="605" fill="#5eead4" font-size="32" font-family="Poppins, Segoe UI, sans-serif" font-weight="700">Machine Learning</text>
+  <text x="160" y="665" fill="#e5e7eb" font-size="30" font-family="Poppins, Segoe UI, sans-serif">Classification, regression, evaluation</text>
+
+  <rect x="120" y="755" width="840" height="190" rx="24" fill="#0b1322" opacity="0.72"/>
+  <text x="160" y="825" fill="#5eead4" font-size="32" font-family="Poppins, Segoe UI, sans-serif" font-weight="700">Data Engineering</text>
+  <text x="160" y="885" fill="#e5e7eb" font-size="30" font-family="Poppins, Segoe UI, sans-serif">Pipelines, preparation des donnees, industrialisation</text>
+</svg>

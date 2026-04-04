@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" role="img" aria-label="Call to action alternance - slide 5">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg5)"/>
+  <circle cx="180" cy="170" r="120" fill="#f59e0b" opacity="0.28"/>
+  <circle cx="900" cy="920" r="170" fill="#fde68a" opacity="0.18"/>
+
+  <text x="90" y="180" fill="#fde68a" font-size="34" font-family="Poppins, Segoe UI, sans-serif" font-weight="700">OPEN TO WORK</text>
+  <text x="90" y="265" fill="#ffffff" font-size="66" font-family="Poppins, Segoe UI, sans-serif" font-weight="800">Recherche alternance</text>
+  <text x="90" y="340" fill="#ffffff" font-size="54" font-family="Poppins, Segoe UI, sans-serif" font-weight="800">Data Science / ML</text>
+
+  <rect x="90" y="395" width="900" height="225" rx="24" fill="#000000" opacity="0.28"/>
+  <text x="130" y="475" fill="#fff7ed" font-size="34" font-family="Poppins, Segoe UI, sans-serif" font-weight="700">Je suis preneur de vos retours:</text>
+  <text x="130" y="535" fill="#fffbeb" font-size="31" font-family="Poppins, Segoe UI, sans-serif">- clarte du portfolio</text>
+  <text x="130" y="580" fill="#fffbeb" font-size="31" font-family="Poppins, Segoe UI, sans-serif">- suggestions d amelioration</text>
+  <text x="130" y="625" fill="#fffbeb" font-size="31" font-family="Poppins, Segoe UI, sans-serif">- conseils de positionnement</text>
+
+  <rect x="90" y="700" width="900" height="190" rx="24" fill="#fef3c7"/>
+  <text x="120" y="780" fill="#78350f" font-size="40" font-family="Poppins, Segoe UI, sans-serif" font-weight="800">Disponible des septembre 2026</text>
+  <text x="120" y="840" fill="#92400e" font-size="33" font-family="Poppins, Segoe UI, sans-serif">Data Science | Machine Learning | Data Engineering</text>
+
+  <text x="90" y="980" fill="#fffbeb" font-size="30" font-family="Poppins, Segoe UI, sans-serif" font-weight="700">Merci pour vos commentaires, partages et mises en relation.</text>
+</svg>

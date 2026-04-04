@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:04,000
+Mon portfolio est en ligne
+
+2
+00:00:04,000 --> 00:00:08,000
+Ce que je montre: Simulation numerique | Machine Learning | Data Engineering
+
+3
+00:00:08,000 --> 00:00:12,000
+Desktop + Mobile
+
+4
+00:00:12,000 --> 00:00:16,000
+Maths + Data + ML
+
+5
+00:00:16,000 --> 00:00:20,000
+Recherche alternance Data Science / ML

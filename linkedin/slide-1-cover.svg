@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" role="img" aria-label="Portfolio en ligne - slide cover">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <circle cx="170" cy="940" r="220" fill="#22d3ee" opacity="0.14"/>
+
+  <rect x="712" y="142" width="296" height="336" rx="26" ry="26" fill="#ffffff" opacity="0.92"/>
+  <image href="./profile-photo.jpg" x="732" y="162" width="256" height="296" preserveAspectRatio="xMidYMin slice"/>
+  <rect x="732" y="162" width="256" height="296" rx="18" ry="18" fill="none" stroke="#0ea5e9" stroke-width="6"/>
+
+  <text x="90" y="170" fill="#93c5fd" font-size="34" font-family="Poppins, Segoe UI, sans-serif" font-weight="700">DATA SCIENCE | MACHINE LEARNING</text>
+  <text x="90" y="285" fill="#ffffff" font-size="72" font-family="Poppins, Segoe UI, sans-serif" font-weight="800">Mon portfolio</text>
+  <text x="90" y="370" fill="#ffffff" font-size="72" font-family="Poppins, Segoe UI, sans-serif" font-weight="800">est en ligne</text>
+
+  <rect x="90" y="430" rx="18" ry="18" width="900" height="245" fill="#ffffff" opacity="0.1"/>
+  <text x="125" y="505" fill="#e2e8f0" font-size="36" font-family="Poppins, Segoe UI, sans-serif" font-weight="600">Objectif:</text>
+  <text x="125" y="560" fill="#f8fafc" font-size="32" font-family="Poppins, Segoe UI, sans-serif">Structurer mon profil</text>
+  <text x="125" y="610" fill="#f8fafc" font-size="32" font-family="Poppins, Segoe UI, sans-serif">Valoriser mes projets data</text>
+  <text x="125" y="660" fill="#f8fafc" font-size="32" font-family="Poppins, Segoe UI, sans-serif">Trouver une alternance des septembre 2026</text>
+
+  <rect x="90" y="760" rx="16" ry="16" width="430" height="95" fill="#22d3ee"/>
+  <text x="120" y="820" fill="#0f172a" font-size="34" font-family="Poppins, Segoe UI, sans-serif" font-weight="800">Disponible en alternance</text>
+
+  <text x="90" y="995" fill="#bfdbfe" font-size="24" font-family="Poppins, Segoe UI, sans-serif">Portfolio: https://wade57.github.io/Mon-portfolio/</text>
+</svg>
