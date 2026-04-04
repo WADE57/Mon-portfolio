@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:04,000
+Mon portfolio Data Science & Machine Learning est en ligne
+
+2
+00:00:04,000 --> 00:00:08,000
+Projets: simulation numerique, NLP, machine learning, data engineering
+
+3
+00:00:08,000 --> 00:00:12,000
+Interface responsive: experience fluide desktop et mobile
+
+4
+00:00:12,000 --> 00:00:16,000
+Positionnement: Maths appliquees + Data + ML
+
+5
+00:00:16,000 --> 00:00:20,000
+Recherche alternance des septembre 2026 | Contact en slide finale
