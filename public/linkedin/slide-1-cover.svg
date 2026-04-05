@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" role="img" aria-label="Slide 1 cover portfolio">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f3f6fb"/>
+      <stop offset="100%" stop-color="#e5ebf5"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#102a59"/>
+      <stop offset="100%" stop-color="#284a87"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <rect x="42" y="42" width="996" height="996" rx="24" fill="#ffffff"/>
+  <rect x="42" y="42" width="996" height="996" rx="24" fill="none" stroke="#d8e1ee"/>
+
+  <rect x="80" y="88" width="920" height="420" rx="18" fill="url(#hero)"/>
+  <circle cx="140" cy="140" r="5" fill="#9bb3d7"/>
+  <circle cx="164" cy="140" r="5" fill="#9bb3d7"/>
+  <circle cx="188" cy="140" r="5" fill="#9bb3d7"/>
+
+  <text x="112" y="190" fill="#ffffff" font-size="58" font-family="Poppins, Segoe UI, sans-serif" font-weight="800">Abdou WADE</text>
+  <text x="112" y="232" fill="#d9e4fb" font-size="22" font-family="Poppins, Segoe UI, sans-serif">Mathematiques appliquees | Data Science | Scientific ML</text>
+  <rect x="112" y="262" width="510" height="42" rx="10" fill="#ffffff" opacity="0.12"/>
+  <text x="126" y="290" fill="#edf3ff" font-size="20" font-family="Poppins, Segoe UI, sans-serif">Recherche d alternance Data Science / Machine Learning</text>
+
+  <rect x="112" y="332" width="112" height="44" rx="8" fill="#274884"/>
+  <rect x="236" y="332" width="132" height="44" rx="8" fill="#274884"/>
+  <rect x="380" y="332" width="118" height="44" rx="8" fill="#274884"/>
+  <rect x="510" y="332" width="178" height="44" rx="8" fill="#274884"/>
+  <text x="145" y="360" fill="#ffffff" font-size="18" font-family="Poppins, Segoe UI, sans-serif" font-weight="600">Projets</text>
+  <text x="258" y="360" fill="#ffffff" font-size="18" font-family="Poppins, Segoe UI, sans-serif" font-weight="600">Formations</text>
+  <text x="401" y="360" fill="#ffffff" font-size="18" font-family="Poppins, Segoe UI, sans-serif" font-weight="600">Contacter</text>
+  <text x="528" y="360" fill="#ffffff" font-size="18" font-family="Poppins, Segoe UI, sans-serif" font-weight="600">Telecharger CV</text>
+
+  <rect x="700" y="114" width="280" height="376" rx="14" fill="#ffffff" opacity="0.14"/>
+  <image href="./profile-photo.jpg" x="716" y="130" width="248" height="344" preserveAspectRatio="xMidYMin slice"/>
+
+  <rect x="80" y="546" width="920" height="438" rx="18" fill="#f8fbff" stroke="#d8e2f0"/>
+  <text x="540" y="605" fill="#344f7c" text-anchor="middle" font-size="48" font-family="Poppins, Segoe UI, sans-serif" font-weight="800">Portfolio en ligne</text>
+  <text x="540" y="652" fill="#516990" text-anchor="middle" font-size="26" font-family="Poppins, Segoe UI, sans-serif">Lien direct:</text>
+  <text x="540" y="697" fill="#1e4296" text-anchor="middle" font-size="30" font-family="Poppins, Segoe UI, sans-serif" font-weight="700">wade57.github.io/Mon-portfolio</text>
+
+  <rect x="124" y="736" width="832" height="190" rx="16" fill="#ecf2fb"/>
+  <text x="156" y="790" fill="#274884" font-size="31" font-family="Poppins, Segoe UI, sans-serif" font-weight="700">Objectif:</text>
+  <text x="156" y="835" fill="#3f5682" font-size="29" font-family="Poppins, Segoe UI, sans-serif">Structurer mon profil et valoriser mes projets</text>
+  <text x="156" y="875" fill="#3f5682" font-size="29" font-family="Poppins, Segoe UI, sans-serif">Recherche alternance des septembre 2026</text>
+</svg>
