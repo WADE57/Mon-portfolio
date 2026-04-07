@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:04,000
+Portfolio Data Science & Machine Learning en ligne
+
+2
+00:00:04,000 --> 00:00:08,000
+Projets: simulation numerique, ML et data engineering
+
+3
+00:00:08,000 --> 00:00:12,000
+Site responsive: desktop + mobile
+
+4
+00:00:12,000 --> 00:00:16,000
+Stack: Python, SQL, ML, Data Engineering, React
+
+5
+00:00:16,000 --> 00:00:20,000
+Recherche d alternance des septembre 2026 | Retours bienvenus
