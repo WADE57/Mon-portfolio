@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" role="img" aria-label="Slide 4 stack">
+  <rect width="1080" height="1080" fill="#f3f6fb"/>
+  <rect x="42" y="42" width="996" height="996" rx="24" fill="#ffffff" stroke="#d8e1ee"/>
+
+  <text x="540" y="132" text-anchor="middle" fill="#2c4673" font-size="52" font-family="Poppins, Segoe UI, sans-serif" font-weight="800">Positionnement Technique</text>
+  <line x1="110" y1="156" x2="970" y2="156" stroke="#d4deec" stroke-width="3"/>
+  <text x="540" y="218" text-anchor="middle" fill="#3f5682" font-size="42" font-family="Poppins, Segoe UI, sans-serif" font-weight="700">Maths + Data + ML</text>
+
+  <rect x="94" y="268" width="892" height="690" rx="20" fill="#f8fbff" stroke="#d8e2f0"/>
+
+  <rect x="130" y="326" width="388" height="146" rx="14" fill="#234275"/>
+  <rect x="562" y="326" width="388" height="146" rx="14" fill="#234275"/>
+  <rect x="130" y="506" width="388" height="146" rx="14" fill="#234275"/>
+  <rect x="562" y="506" width="388" height="146" rx="14" fill="#234275"/>
+  <rect x="130" y="686" width="388" height="146" rx="14" fill="#234275"/>
+  <rect x="562" y="686" width="388" height="146" rx="14" fill="#234275"/>
+
+  <text x="176" y="410" fill="#ffffff" font-size="44" font-family="Poppins, Segoe UI, sans-serif" font-weight="700">Python</text>
+  <text x="608" y="410" fill="#ffffff" font-size="44" font-family="Poppins, Segoe UI, sans-serif" font-weight="700">SQL</text>
+  <text x="176" y="590" fill="#ffffff" font-size="44" font-family="Poppins, Segoe UI, sans-serif" font-weight="700">Machine Learning</text>
+  <text x="608" y="590" fill="#ffffff" font-size="44" font-family="Poppins, Segoe UI, sans-serif" font-weight="700">Data Engineering</text>
+  <text x="176" y="770" fill="#ffffff" font-size="44" font-family="Poppins, Segoe UI, sans-serif" font-weight="700">React + Vite</text>
+  <text x="608" y="770" fill="#ffffff" font-size="44" font-family="Poppins, Segoe UI, sans-serif" font-weight="700">GitHub Pages</text>
+</svg>
