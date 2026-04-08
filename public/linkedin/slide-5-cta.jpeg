@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" role="img" aria-label="Slide 5 contact CTA">
+  <rect width="1080" height="1080" fill="#f3f6fb"/>
+  <rect x="42" y="42" width="996" height="996" rx="24" fill="#ffffff" stroke="#d8e1ee"/>
+
+  <text x="540" y="132" text-anchor="middle" fill="#2c4673" font-size="52" font-family="Poppins, Segoe UI, sans-serif" font-weight="800">Open To Work</text>
+  <line x1="110" y1="156" x2="970" y2="156" stroke="#d4deec" stroke-width="3"/>
+
+  <rect x="92" y="206" width="892" height="230" rx="18" fill="#f8fbff" stroke="#d8e2f0"/>
+  <text x="132" y="278" fill="#2a4471" font-size="56" font-family="Poppins, Segoe UI, sans-serif" font-weight="800">Recherche alternance</text>
+  <text x="132" y="336" fill="#4b648d" font-size="42" font-family="Poppins, Segoe UI, sans-serif" font-weight="700">Data Science / Machine Learning</text>
+  <text x="132" y="391" fill="#4b648d" font-size="32" font-family="Poppins, Segoe UI, sans-serif">Disponible des septembre 2026</text>
+
+  <rect x="92" y="468" width="892" height="250" rx="18" fill="#ecf2fb"/>
+  <text x="132" y="534" fill="#2a4471" font-size="36" font-family="Poppins, Segoe UI, sans-serif" font-weight="800">Portfolio</text>
+  <text x="132" y="584" fill="#1e4296" font-size="30" font-family="Poppins, Segoe UI, sans-serif" font-weight="700">https://wade57.github.io/Mon-portfolio/</text>
+  <text x="132" y="646" fill="#3f5682" font-size="28" font-family="Poppins, Segoe UI, sans-serif">Vos retours et suggestions sont les bienvenus</text>
+  <text x="132" y="692" fill="#3f5682" font-size="28" font-family="Poppins, Segoe UI, sans-serif">N hesitez pas a me contacter en message prive</text>
+
+  <rect x="92" y="748" width="892" height="236" rx="18" fill="#f8fbff" stroke="#d8e2f0"/>
+  <text x="132" y="810" fill="#2a4471" font-size="34" font-family="Poppins, Segoe UI, sans-serif" font-weight="800">Contact</text>
+  <text x="132" y="856" fill="#3f5682" font-size="28" font-family="Poppins, Segoe UI, sans-serif">Email: abdouwade1996@gmail.com</text>
+  <text x="132" y="898" fill="#3f5682" font-size="28" font-family="Poppins, Segoe UI, sans-serif">Telephone: 07 53 92 00 84</text>
+  <text x="132" y="940" fill="#3f5682" font-size="28" font-family="Poppins, Segoe UI, sans-serif">LinkedIn: /in/abdou-wade-81694a28b</text>
+</svg>
