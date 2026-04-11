@@ -4,14 +4,14 @@ function Languages() {
   const languages = [
     {
       name: 'Français',
-      level: 'C2 – Maîtrise,',
-      proficiency: 90,
+      level: 'C2 – Maîtrise',
+      proficiency: 100,
       flag: '🇫🇷'
     },
     {
       name: 'Anglais',
       level: 'B2 – Intermédiaire',
-      proficiency: 60,
+      proficiency: 75,
       flag: '🇬🇧'
     },
     {
